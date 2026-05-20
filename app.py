@@ -182,23 +182,8 @@ def init_session_state():
 # AUTHENTICATION
 # ============================================================
 def show_login():
-    st.markdown(f"""
-        <div style="text-align: center; padding: 40px;">
-            <h1 style="color: {PRIMARY_COLOR};">VERA Comply</h1>
-            <h3 style="color: #666;">SB 1288 AI Policy Compliance Platform</h3>
-            <p style="color: #888;">Verification Engine for Results & Accountability</p>
-        </div>
-    """, unsafe_allow_html=True)
-
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
-        password = st.text_input("Enter access code:", type="password", key="login_password")
-        if st.button("Access Platform", use_container_width=True):
-            if password == APP_PASSWORD:
-                st.session_state.authenticated = True
-                st.rerun()
-            else:
-                st.error("Invalid access code")
+    st.session_state.authenticated = True
+    st.rerun()
 
 # ============================================================
 # DISTRICT INFORMATION
