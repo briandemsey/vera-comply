@@ -18,7 +18,8 @@ import json
 # ============================================================
 # CONFIGURATION
 # ============================================================
-APP_PRIMARY_COLOR = "#1B4D89"  # California blue
+APP_PRIMARY_COLOR = "#1B4D89"
+PRIMARY_COLOR = "#1B4D89"  # California blue
 ACCENT_COLOR = "#C4A000"   # Gold accent
 
 # ============================================================
