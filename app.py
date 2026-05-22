@@ -18,8 +18,7 @@ import json
 # ============================================================
 # CONFIGURATION
 # ============================================================
-APP_PASSWORD = "vera2026"
-PRIMARY_COLOR = "#1B4D89"  # California blue
+APP_PRIMARY_COLOR = "#1B4D89"  # California blue
 ACCENT_COLOR = "#C4A000"   # Gold accent
 
 # ============================================================
